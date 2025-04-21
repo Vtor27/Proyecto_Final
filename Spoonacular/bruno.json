@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Spoonacular",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

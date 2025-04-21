@@ -1,0 +1,16 @@
+meta {
+  name: Prueba_API_Directa
+  type: http
+  seq: 2
+}
+
+get {
+  url: https://api.spoonacular.com/recipes/findByIngredients?ingredients=tomato,cheese,chocken&apiKey=bcf651cde8114369844a62ed903d4c83
+  body: none
+  auth: inherit
+}
+
+params:query {
+  ingredients: tomato,cheese,chocken
+  apiKey: bcf651cde8114369844a62ed903d4c83
+}

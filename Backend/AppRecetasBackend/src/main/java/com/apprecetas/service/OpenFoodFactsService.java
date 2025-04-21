@@ -5,11 +5,13 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
 import com.apprecetas.exception.ProductoNoEncontradoException;
+import com.apprecetas.utils.Utils;
 
 @Service
 public class OpenFoodFactsService {
+	
 	public String buscarProductoPorCodigo(String codigo) {
-		String url = "https://world.openfoodfacts.org/api/v0/product/" + codigo + ".json";
+		String url = Utils.OPEN_FOOD_FACTS_URL + codigo + ".json";
 		RestTemplate restTemplate = new RestTemplate();
 
 		try {
