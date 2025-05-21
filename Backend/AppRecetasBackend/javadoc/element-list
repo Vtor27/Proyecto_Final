@@ -1,0 +1,12 @@
+com.apprecetas
+com.apprecetas.config
+com.apprecetas.controller
+com.apprecetas.dto
+com.apprecetas.exception
+com.apprecetas.filter
+com.apprecetas.mapper
+com.apprecetas.repository
+com.apprecetas.security
+com.apprecetas.service
+com.apprecetas.service.feing
+com.apprecetas.utils
